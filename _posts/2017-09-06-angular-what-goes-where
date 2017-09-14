@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Angular in a tiny nutshell
+title: Angular makes my head hurt - part 1 - components
 ---
-This post is intended to be a learning experience for myself. What are the bits, and how do they connect to the other bits?
+This post is intended to be a learning experience for myself.
 
 
 Directives attach particular behaviours to DOM elements
