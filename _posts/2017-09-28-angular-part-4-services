@@ -1,0 +1,26 @@
+---
+layout: post
+title: Baby Steps in Angular - part 1 - components
+---
+This post is intended to be a learning experience for myself.
+
+
+Directives attach particular behaviours to DOM elements
+eg <div ng-click="doSomething()">
+There are built in directives but we can also write our own.
+
+MVC. View = UI. Model = data. User interacts with controller and controller conducts transactions on behalf of the model.
+Controller manipulates the model and passes it back to the view.
+
+an Angular module acts as a container for all the different parts of an application eg the services, controllers, filters and config info.
+
+'The root Angular module will act as a container for different parts of our application. In app.js, define a module with angular.module:'
+
+angular.module('blocJams', []);
+
+The first argument passed, blocJams, is the prescribed name of the module.
+The empty array, passed as the second argument, injects dependencies into an application.
+
+To link the blocJams module to the application, Angular needs to know the root element of the application
+which is typically the <html> or <body> element. In  index.html, link the root module to the <html> tag:
+<html ng-app="blocJams">

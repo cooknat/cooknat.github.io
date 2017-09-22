@@ -1,0 +1,48 @@
+---
+layout: post
+title: Angularjs for the Fabulously Flummoxed (and the Perpetually Perplexed) - Part 1 - Components
+---
+(This post is mainly intended to be a learning experience for myself. If you are reading it - hi!
+I hope you find it useful, but - be warned it will be very basic).
+
+First of all, what is Angular?
+-------------------------------
+Angular is a framework. That is, a body of code, written in JavaScript, providing functions designed to make it easier for
+you to write YOUR JavaScript apps, and to make the resulting code clearer and more readable, invaluable when working in a team with other developers.
+
+So - how will my Angular app differ from a vanilla JavaScript app?
+-------------------------------------------------------------------
+A good question! Much like any web app, an Angular application is made up of several files containing either JavaScript or html
+(along with assets, style sheets etc), working together in perfect harmony to give your user what they want or need (or maybe even both).
+
+In Angularjs, we aim to separate the functionality of the view (what the user sees), the model (where the data and logic are handled)
+and the controller (the bit in the middle that communicates with the other bits). If you want to know more about this approach,
+you can read about it here - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller.
+
+Angular has different file types known as components, which are
+responsible for the various parts mentioned above. These different file types have names - which mean something to the StackOverflow whizzkids,
+but can be difficult to decode for the beginner (namely me).
+
+This post is an attempt at a definition of the jargon and will hopefully help me scratch my head less.
+
+
+
+Directives attach particular behaviours to DOM elements
+eg <div ng-click="doSomething()">
+There are built in directives but we can also write our own.
+
+MVC. View = UI. Model = data. User interacts with controller and controller conducts transactions on behalf of the model.
+Controller manipulates the model and passes it back to the view.
+
+an Angular module acts as a container for all the different parts of an application eg the services, controllers, filters and config info.
+
+'The root Angular module will act as a container for different parts of our application. In app.js, define a module with angular.module:'
+
+angular.module('blocJams', []);
+
+The first argument passed, blocJams, is the prescribed name of the module.
+The empty array, passed as the second argument, injects dependencies into an application.
+
+To link the blocJams module to the application, Angular needs to know the root element of the application
+which is typically the <html> or <body> element. In  index.html, link the root module to the <html> tag:
+<html ng-app="blocJams">
