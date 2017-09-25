@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Angularjs for the Fabulously Flummoxed (and the Perpetually Perplexed) - Part 1 - Components
+title: Angularjs for the Perplexed - Part 1 - Components
 ---
+ DRAFT
+
 (This post is mainly intended to be a learning experience for myself. If you are reading it - hi!
 I hope you find it useful, but - be warned it will be very basic).
 
@@ -44,5 +46,5 @@ The first argument passed, blocJams, is the prescribed name of the module.
 The empty array, passed as the second argument, injects dependencies into an application.
 
 To link the blocJams module to the application, Angular needs to know the root element of the application
-which is typically the <html> or <body> element. In  index.html, link the root module to the <html> tag:
+which is typically the html or body element. In  index.html, link the root module to the html tag
 <html ng-app="blocJams">
