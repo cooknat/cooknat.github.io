@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Angularjs for the Perplexed - Part 1 - Components
+title: Angularjs for the Perplexed - Part 1 - Parts of an Angularjs application
 ---
  DRAFT
 
@@ -21,13 +21,22 @@ In Angularjs, we aim to separate the functionality of the view (what the user se
 and the controller (the bit in the middle that communicates with the other bits). If you want to know more about this approach,
 you can read about it here - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller.
 
-Angular has different file types known as components, which are
-responsible for the various parts mentioned above. These different file types have names - which mean something to the StackOverflow whizzkids,
-but can be difficult to decode for the beginner (namely me).
+Angular has different parts which are responsible for the various areas mentioned above.
+
 
 This post is an attempt at a definition of the jargon and will hopefully help me scratch my head less.
 
+Modules
 
+Controllers
+
+Services
+
+Templates
+
+States and Routing
+
+Directives
 
 Directives attach particular behaviours to DOM elements
 eg <div ng-click="doSomething()">

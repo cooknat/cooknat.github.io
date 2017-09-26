@@ -3,7 +3,7 @@ layout: post
 title: Learning what to learn, knowing what to know
 ---
 DRAFT
-I can only speak for myself, but as a beginner coder, the sheer depth, breadth and volume of tech-talk on the internet (while of course being inspiring) isalso  incredibly intimidating - and I'm sure most other beginners would find it so.
+I can only speak for myself, but as a beginner coder, the sheer depth, breadth and volume of tech-talk on the internet (while of course being inspiring) is also  incredibly intimidating - and I'm sure most other beginners would find it so.
 
 A quick google of 'best coding blogs' brings up pages of searches:
 
